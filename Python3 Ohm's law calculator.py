@@ -16,7 +16,7 @@ V1 = float(input("Enter Voltage value: "))
 print(V1, "Volts")
 
 #Resistor connection type set
-ResistorConnectionType = input("Enter connection type: Series  or  Parallel ")
+ResistorConnectionType = input("Enter connection type: Series  or  Parallel: ")
 if ResistorConnectionType =="Series":
     print("S type circuit")
     Rtotal = R1 + R2
