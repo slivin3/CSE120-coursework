@@ -1,3 +1,5 @@
+##Created by SAL on 11/18/2024
+
 print("Lets calculate the current in a circuit using Ohm's law!")
 
 #Resistor inputs
