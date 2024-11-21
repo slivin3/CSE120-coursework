@@ -11,7 +11,8 @@ if User_time == "":
 else:
     User_time = int(User_time)
 print("The time is: ",User_time)
-    
+
+#Error response if less than 0, more than 2400, and using modulus to verify that the minutues should be less than 60
 if User_time < 0 or User_time >= 2400 or User_time % 100 > 60:
     print("Negative time doesn't exist! Nor does more than 60 minutes in an hour! \nAre you trying to time travel or create a tear in the space time continuum?")
 elif User_time > 0 and User_time <= 1159:
