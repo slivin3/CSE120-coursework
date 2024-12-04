@@ -1,3 +1,5 @@
+##Created by SAL on 12/03/2024
+
 def word_search():
     #set the default values for these strings if no user input is entered.
     Default_statement = "This is a test statement to be used and it is just the one."
