@@ -5,8 +5,8 @@ def word_search():
     Default_statement = "This is a test statement to be used and it is just the one."
     Default_My_word = "is"
     #User input for statement and word to find
-    statement = input("Enter a statement and we'll count the number of occurrences of a word:") or Default_statement
-    My_word = input("Enter a word and we'll count the number of occurrences of in the previous statement:") or Default_My_word
+    statement = input("Enter a statement and we'll count the number of occurrences of a word: ") or Default_statement
+    My_word = input("Enter a word and we'll count the number of occurrences of it in the previous statement: ") or Default_My_word
     print("Word to hunt for:", My_word)
     print("Statement entered:", statement)
     #Playing with Python F strings
